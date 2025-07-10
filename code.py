@@ -15,7 +15,7 @@ from atoms.colors import color
 pixel.fill(color("yellow"))
 
 class AP:
-    def __init__(self, ssid="Atom Ducky", passw="", ap='TRUE', ip="10.0.0.15", mode="NORMAL"):
+    def __init__(self, ssid="Atom Ducky", passw="12345678910", ap='TRUE', ip="10.0.0.15", mode="NORMAL"):
         self.ssid = ssid
         self.password = passw
         self.ip = ip
